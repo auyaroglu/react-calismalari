@@ -1,0 +1,13 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+h1{
+  margin: 0;
+  padding: 0;
+}
