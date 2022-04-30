@@ -1,0 +1,10 @@
+h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+}
+.App {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    color: #fff;
+}
