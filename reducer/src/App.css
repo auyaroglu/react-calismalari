@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.App{
+    margin: 0;
+    width: 100%;
+    padding: 2%;
+    background-color: aliceblue;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
