@@ -1,0 +1,49 @@
+.firstForm{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 250px;
+    box-shadow: .5px .5px 10px .5px #ddd;
+    input{
+        margin: 0;
+        height: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 3px 6px;
+        &:focus{
+            outline: 0;
+            box-shadow: 0.5px 0.5px 5px #ddd;
+        }
+        &[type="file"]{
+            cursor: pointer;
+        }
+    }
+    button{
+        font-weight: 600;
+        cursor: pointer;
+        background: red;
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 120px;
+        height: 40px;
+        font-size: 13px;
+        transition: .5s ease all;
+        &:disabled{
+            opacity: .5;
+            pointer-events: none;
+        }
+        &:hover{
+            transition: .5s ease all;
+            background: white;
+            color: red;
+            border-color: red;
+        }
+    }
+}
